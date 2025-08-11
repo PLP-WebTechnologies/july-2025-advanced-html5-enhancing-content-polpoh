@@ -1,38 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="A simple, accessible, and SEO-friendly web page.">
-  <title>HTML5 Accessibility & SEO Basics</title>
-</head>
-<body>
-
-  <header>
-    <h1>Welcome to My Web Page</h1>
-    <nav aria-label="Main Navigation">
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main>
-    <section id="about">
-      <h2>About This Page</h2>
-      <p>This web page is created to demonstrate the use of semantic HTML5, accessibility best practices, and basic SEO techniques.</p>
-    </section>
-
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Email: example@example.com</p>
-    </section>
-  </main>
-
-  <footer>
-    <p>&copy; 2025 Philip Karisa</p>
-  </footer>
-
-</body>
-</html>
+  <html>
+        <head>
+          </head> 
+        
+          <body>
+             <h1>Introduction to html</h1>
+             <p>I am so excited!!! i have just created my first web page!This is amzing</p>
+             <h2>Lists</h2>
+             <h3>Ordered lists</h3>
+             <ol type ="i">
+                   <li>HTML</li>
+                   <li>CSS</li>
+                   <li>Javascript</li>
+             </ol>
+             <h3>unorderd list</h3>
+             <ul> <li>HTML</li>
+                   <li>CSS</li>
+                   <li>Javascript</lI>
+             </ul>
+             <h3>Embeded image</h3> 
+            <img src="web dev photo.jpg" alt="image of web dev photo" width="300" height="200">
+            <img src=https://images.pexels.com/photos/6424586/pexels-photo-6424586.jpeg alt="wed design photo" width="300" height="200">
+            <h2>Table</h2>
+             <table border="1">
+                  <thead>
+                        <tr>
+                              <th>Name</th>
+                              <th>Gender</th>
+                              <th>Country</th>
+                        </tr>
+                  </thead>
+                   <tbody>
+                        <tr>
+                              <td>Philip</td>
+                              <td>Male</td>
+                              <td>Kenya</td>
+                        </tr>
+                        <tr>
+                              <td>Sophia</td>
+                              <td>Female</td>
+                              <td>Tanzania</td>
+                        </tr>
+                        <tr>
+                              <td>Polpo</td>
+                              <td>Male</td>
+                              <td>Uganda</td>
+                        </tr>
+                   </tbody>
+             </table>
+             <h2>Embedding Videos & Audio</h2>
+              <video width="500" height="300" controls>
+                  <source src="my video.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+              </video>
+                  <audio controls>
+                        <source src="my audio.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                  </audio>
+                  <h2>Forms</h2>
+                   <forms action="..." method="">
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" id="name" placeholder="Enter your name here...">
+                        <br /><br />
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" placeholder="Enter your email here...">
+                        <!-- username@domain.com/sa.ke.ng -->
+                         <br /><br />
+                         <label for="age">Age:</label>
+                        <input type="number" name="age" id="age" max="30" min="18" placeholder="Enter your age here...">
+                        <br /><br />
+                        <label for="dod">Date of Birth:</label>
+                        <input type="date" name="dob" id="dob">
+                        <br /><br />
+                        <label for="gender">Gender</label>
+                        <input type="radio" name="gender" value="Male">Male
+                        <input type="radio" name="gender" value="Female">Female
+                        <br /><br />
+                        <label for="cv">upload CV:</label>
+                        <input type="file" name="cv" id="cv">
+                        <br /><br />
+                        <label for="bio">Bio:</label>
+                        <textarea name="bio" id="bio" cols="30" rows="10" placeholder="Enter your bio here..."></textarea>
+                        <br /><br />
+                        <input type="submit" value="Submit">
+                   </forms>
+          </body>
+  </html>
